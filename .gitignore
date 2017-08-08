@@ -1,0 +1,8 @@
+# As always.
+node_modules/
+
+# Ignore logs.
+*.log
+
+# Ignore dist, it's just for production purposes
+dist/

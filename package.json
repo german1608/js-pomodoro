@@ -1,0 +1,31 @@
+{
+  "name": "js-pomodoro",
+  "version": "1.0.0",
+  "description": "A simple vanillaJS pomodoro clock using webpack (to practice) for a fCC challenge.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "push": "./node_modules/push-dir/bin/push-dir.js --dir=dist --branch=gh-pages --cleanup",
+    "prod": "webpack -p"
+  },
+  "author": "German Robayo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/german1608/js-pomodoro.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.4",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.3",
+    "pug": "^2.0.0-rc.2",
+    "pug-html-loader": "^1.1.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
