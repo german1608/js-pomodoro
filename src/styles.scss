@@ -1,0 +1,47 @@
+$main-bg: #2e7d32;
+html, body {
+  font-family: 'Montserrat';
+}
+
+body {
+  height: 95vh;
+  background-color: $main-bg;
+  color: white;
+}
+
+* {
+  font-weight: 300;
+}
+
+.app-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  .timer {
+    h1 {
+      font-size: 6rem;
+    }
+  }
+  .timer-engine {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    span {
+      font-size: 3rem;
+    }
+    img {
+      max-width: 1.5rem;
+      height: auto;
+    }
+    .timer-set, .break-set {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img[data-key="down"] {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
