@@ -6,3 +6,6 @@ node_modules/
 
 # Ignore dist, it's just for production purposes
 dist/
+
+# Ignore the template for the webpage
+templates/pomodoro-template.svg
