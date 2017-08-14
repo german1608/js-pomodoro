@@ -6,20 +6,24 @@ head
   link(href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet")
   title Pomodoro Clock
 body
+  h3.err-handler err
   .app-wrapper
       h1 Pomodoro Clock
       .timer
-        h1 4:20
+        h1 20:00
       .timer-engine
         .break-set
           h2 Break
-          img(src="../templates/upArrow.svg" alt="upArrow" data-key='up')
-          span 42
-          img(src="../templates/upArrow.svg" alt="upArrow" data-key='down')
+          img(src="../templates/upArrow.svg" alt="upArrow" data-key='up' data-change='b')
+          span 20
+          img(src="../templates/upArrow.svg" alt="upArrow" data-key='down' data-change='b')
           p min
+        .info-set
+          h2 START
+          span 
         .timer-set
           h2 Time
-          img(src="../templates/upArrow.svg" alt="upArrow" data-key='up')
-          span 42
-          img(src="../templates/upArrow.svg" alt="upArrow" data-key='down')
+          img(src="../templates/upArrow.svg" alt="upArrow" data-key='up' data-change='s')
+          span 20
+          img(src="../templates/upArrow.svg" alt="upArrow" data-key='down' data-change='s')
           p min
