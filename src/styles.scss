@@ -75,6 +75,7 @@ body {
       &.active {
         transform: scale(1.2);
       }
+      cursor: pointer;
     }
     .timer-set, .break-set {
       display: flex;
@@ -102,6 +103,7 @@ body {
         background-color: white;
         border-radius: 4px;
         transition: color 1s ease;
+        cursor: pointer;
         &.time {
           color: $main-yellow;
         }
