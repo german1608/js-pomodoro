@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
   // entry: es la que decide que se va a colocar en el dist. en app.js por ejemplo se decidira que se va a usar
   // entre css blabla
