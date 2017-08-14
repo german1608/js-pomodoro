@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",
-    "push": "./node_modules/push-dir/bin/push-dir.js --dir=dist --branch=gh-pages --cleanup",
+    "push": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "prod": "webpack -p"
   },
   "author": "German Robayo",
@@ -26,8 +26,12 @@
     "pug": "^2.0.0-rc.2",
     "pug-html-loader": "^1.1.5",
     "sass-loader": "^6.0.6",
+    "standard": "^10.0.3",
     "style-loader": "^0.18.2",
     "webpack": "^3.3.0",
     "webpack-dev-server": "^2.6.1"
+  },
+  "optionalDependencies": {
+    "push-dir": "^0.4.1"
   }
 }
