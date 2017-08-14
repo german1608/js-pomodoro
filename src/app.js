@@ -139,7 +139,7 @@ function changeMainDisplay () {
   */
   mainDisplay.innerHTML = formatTime(leftTime)
   leftTime--
-  if (mainDisplay.innerHTML === '0:00') {
+  if (mainDisplay.innerHTML === '00:00') {
     if (isBreak) {
       isBreak = false
       document.body.classList.remove('break')
