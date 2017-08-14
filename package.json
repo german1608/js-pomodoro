@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "push": "push-dir --dir=dist --branch=gh-pages --cleanup",
-    "prod": "webpack -p"
+    "prod": "standard && webpack -p"
   },
   "author": "German Robayo",
   "license": "ISC",
