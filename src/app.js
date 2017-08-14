@@ -1,1 +1,1 @@
-const css = require('./styles.scss')
+const css = require('./styles.scss') // eslint-disable-line
